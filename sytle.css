@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+ul li a {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    /* 1f1534-hyfen */
+    color: #1F1534;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.header-parent ul li a:hover {
+    font-weight: 700;
+    color: #1F1534;
+    opacity: 1;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+
+
+/* bir section */
+
+.bir-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bir-left {
+    width: 440px;
+}
+
+.bir-title {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    /* or 117% */
+    color: #000000;
+}
+
+.bir-text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    /* or 152% */
+    color: #7D7987;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.bir-btn button {
+    width: 197.75px;
+    height: 56px;
+    background: #458FF6;
+    border-radius: 55px;
+    border: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+/* ikki section */
+
+.card {
+    width: 380px;
+    height: 380px;
+    background: #FFFFFF;
+    /* drop shadow */
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.card-inner {
+    padding-left: 40px;
+    padding-top: 68px;
+}
+
+.card-title {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    /* or 233% */
+    color: #000000;
+}
+
+
+.card-text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    color: #7D7987;
+}
+
+.card-contnent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.etaj-bir{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border: 1px solid blue;
+    width: 200px;
+    height: 56px;
+    background-color: white;
+    border-radius: 55px;
+
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #458FF6;
+}
+
+.btn{
+    text-align: center;
+}
+
+.bir{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 56px;
+color: #000000;
+text-align: center;
+margin-bottom: 60px;
+margin-top: 95px;
+}
+
+.ikki{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #7D7987;
+width: 950px;
+margin: 0 auto;
+margin-bottom: 50px;
+}
+
+/* uch section */
+
+.card-bir-link{
+    padding-left: 30px;
+    list-style: none;
+}
+
+.card-bir{
+    background-color: #FFFFFF;
+    width: 380px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    height: 515px;
+
+}
+
+.div-text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    text-align: center;
+    margin-top: 106px;
+    margin-bottom: 60px;
+}
+
+.card-bir-title{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 32px;
+color: #000000;
+width: 250px;
+padding-left: 30px;
+margin-top: 30px;
+}
+
+.card-bir-text{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+color: #7D7987;
+width: 255px;
+margin-top: 10px;
+margin-bottom: 18px;
+padding-left: 30px;
+}
+
+.card-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* tor section */
+
+
+
+.footer-text{
+    color: white;
+    font-size: 20px;
+    width: 400px;
+}
+
+.footer-img{
+width: 386px;
+height: 56px;
+}
+
+.footer-content{
+    padding: 100px 70px;
+    background: rgb(72, 121, 244);
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.corad-ikki-title{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+.card-ikki-text{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+margin: 10px;
+}
+
+.uch{
+    display: flex;
+    gap: 170px;
+}
